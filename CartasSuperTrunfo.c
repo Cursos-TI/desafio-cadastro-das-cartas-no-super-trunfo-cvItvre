@@ -1,13 +1,7 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    
 
     // variaveis para a carta 01
     char estado01;
@@ -15,16 +9,12 @@ int main() {
     int populacao01, numPontosTuristicos01 = 0;
     float area01, pib01 = 0;
 
-    // variaveis para a cara 02
+    // variaveis para a carta 02
     char estado02;
     char codCarta02[4], nomeCidade02[20] = "";
     int populacao02, numPontosTuristicos02 = 0;
     float area02, pib02 = 0;
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-
     printf("=====CADASTRO CARTA SUPER TRUNFO=====\n\n");
 
     // Cadastrando a Carta 01.
@@ -74,10 +64,6 @@ int main() {
 
     printf("Digite a quantidade de pontos turísticos na cidade %s: ", nomeCidade02);
     scanf("%d", &numPontosTuristicos02);
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     // Mostrando as cartas na tela
     printf("\n\n==CARTA 01==\n");
