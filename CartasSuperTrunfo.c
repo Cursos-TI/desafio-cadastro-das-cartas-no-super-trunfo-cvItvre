@@ -9,7 +9,7 @@ int main() {
     float area01, pib01 = 0;
     float densidadePop01, pibPerCapta01;
 
-    // variaveis para a cara 02
+    // variaveis para a carta 02
     char estado02;
     char codCarta02[4], nomeCidade02[20] = "";
     int populacao02, numPontosTuristicos02 = 0;
